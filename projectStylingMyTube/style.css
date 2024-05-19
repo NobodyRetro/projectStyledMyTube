@@ -1,0 +1,140 @@
+.palette {
+  color: #6b6a8a; /*Ultra Violet*/
+  color: #652d2e; /*Garnet*/
+  color: #ff0040; /*Red (Munsell)*/
+  color: #110811; /*Licorice*/
+  color: #151320; /*Raisin Black*/
+}
+
+body {
+  background-color: #151320;
+  color: #ff0040;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 10%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ff0040;
+  background-color: #110811;
+}
+
+nav a {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  background-color: #110811;
+  color: #ff0040;
+  border: 1px solid #652d2e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.currentPage {
+  background-color: #ff0040;
+  color: #110811;
+  border: 1px solid #ff0040;
+}
+
+nav a:hover {
+  border: 1px solid #ff0040;
+}
+
+.footerClass {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+h1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #110811;
+  color: #ff0040;
+  border: 2px solid #ff0040;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.featuredTable {
+  position: relative;
+  top: 100%;
+}
+
+th {
+  padding: 10px;
+  background-color: #110811;
+  border: 1px solid #652d2e;
+  border-radius: 5px;
+}
+
+th:hover {
+  background-color: black;
+  border: 1px solid #ff0040;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  background-color: #110811;
+  color: #ff0040;
+  border: 2px solid #652d2e;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 400px;
+  border: 1px solid #ff0040;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #110811;
+}
+
+form input,
+form textarea,
+form select,
+form input[type="file"]::file-selector-button {
+  border-radius: 7px;
+  background-color: #110811;
+  color: #ff0040;
+  border: 1px solid #652d2e;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  outline: none;
+}
+
+form input[type="file"]::file-selector-button {
+  border: none;
+}
+
+#submitVideo {
+  border-radius: 10px;
+  width: 95%;
+  padding: 15px;
+  margin: 10px;
+}
+
+#submitVideo:hover {
+  background-color: #ff0040;
+  color: #110811;
+}

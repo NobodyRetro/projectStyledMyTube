@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Upload Video</title>
+    <meta
+      name="description"
+      content="The webpage that lets you upload a video"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="home">
+      <a href="./index.html"><span>Home</span></a
+      ><br />
+      <a href="./pages/catVideosCollection.html"> Cat Videos </a><br />
+      <a href="./pages/codingTutorialsCollection.html"> Coding Tutorials </a
+      ><br />
+      <a href="./pages/videoGamesCollection.html"> Video Games </a><br />
+      <a href="./form.html" class="currentPage"> Upload Video </a><br />
+    </nav>
+    <br /><br />
+
+    <form action="./upload.php">
+      <h3><strong>Upload New Video</strong></h3>
+
+      <label for="videoTitle">Video Title</label><br />
+      <input type="text" placeholder="Input Value" required />
+      <br /><br />
+
+      <label for="description">Description</label><br />
+      <textarea name="description" id="description" rows="10" cols="40">
+      </textarea>
+      <br /><br />
+
+      <label for="videoFile">Video</label><br />
+      <input
+        id="file"
+        type="file"
+        value="Choose File"
+        placeholder="please choose a file"
+        required
+      />
+      <br /><br />
+
+      <label for="chooseCollection">Choose Collection</label><br />
+
+      <select name="chooseCollection" id="chooseCollection" required>
+        <option value="" disabled selected hidden>
+          Please choose a collection
+        </option>
+        <option value="">Cat Videos</option>
+        <option value="">Coding Tutorials</option>
+        <option value="">Video Games</option>
+      </select>
+      <br /><br />
+
+      <label name="privacy"></label>
+
+      <input name="privacy" id="public" type="radio" value="public" />
+      <label for="public">Public</label>
+
+      <input name="privacy" id="private" type="radio" value="private" />
+      <label for="private">Private</label>
+      <br /><br /><br /><br /><br />
+
+      <input id="submitVideo" type="submit" value="Upload Video" />
+    </form>
+    <br /><br /><br /><br /><br />
+
+    <div class="footerClass">
+      <hr />
+      <footer>
+        &copy: Copyright Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+      </footer>
+      <br />
+    </div>
+  </body>
+</html>

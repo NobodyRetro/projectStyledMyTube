@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Project: My Tube Styled</title>
+    <meta name="description" content="The MyTube Project by Aaron Amaro" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!--
+    This is to be done with HTML ONLY. (For your Module 2 project you'll be tasked with adding CSS to this MyTube project).
+    The index.html  file will be the "home page" of your website.
+    Your website will have four (4) pages. The navbar will include 4 links to get to these different pages:
+        Home page: This will show 3 "featured" videos (1 from each collection) - Videos on this page SHOULD NOT be allowed full screen.
+        Collection pages: 
+            You will have three (3) collections/category pages.
+            Each page will have a collection of YouTube videos of your choice (i.e. Cars).
+            Each collection page will have six (6) videos relevant to the collection/category.
+            Videos on this page SHOULD NOT be allowed full screen.
+            Each YouTube video will have a clickable title beneath it that navigates the user to its "video details page"
+        Video details page:
+            This page should include the YouTube video associated with the title that was clicked, along with its title and a short paragraph about the video. You can use lorem ipsum text for video descriptions.
+            Videos on this page WILL be allowed full screen.
+        Video Upload page:
+            This will include a form (non-functional) to mimic "uploading" videos to your channel.
+            The <input> and <label> elements should include ALL required attributes as if it were a working form.
+            Pay special attention to the form mockup below to know what elements the form must include.
+            The radio buttons must toggle correctly (one selected at a time)
+    HTML must follow a consistent indentation pattern. (HTML style guide)
+    No large gaps/empty space between elements.
+    Footer - Place an <hr> tag just above the <footer> and add the following text inside the footer: &copy: Copyright"
+    Read these requirements again before submitting your assignment to make sure you have covered each point.-->
+  <body>
+    <nav id="home">
+      <a href="./index.html" class="currentPage"><span>Home</span></a
+      ><br />
+      <a href="./pages/catVideosCollection.html"> Cat Videos </a><br />
+      <a href="./pages/codingTutorialsCollection.html"> Coding Tutorials </a
+      ><br />
+      <a href="./pages/videoGamesCollection.html"> Video Games </a><br />
+      <a href="./form.html"> Upload Video </a><br />
+    </nav>
+    <br /><br />
+
+    <h1 id="featuredVideos"><strong>Featured Videos</strong></h1>
+    <br />
+
+    <table class="featuredTable">
+      <tr>
+        <th>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zadxEvylsw8"
+            title="Visiting the Biggest Cat Cafe in Japan | Cat Cafe MOCHA Lounge Shinjuku | ASMR"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+          <div><a href="./videos/catVideos4.html">Cat Cafe</a></div>
+        </th>
+        <th>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dD2EISBDjWM"
+            title="HTML Tutorial for Beginners - 00 - Introduction to HTML"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+          <div><a href="./videos/codingTutorials1.html">Intro to HTML</a></div>
+        </th>
+        <th>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/IqgtkY42XRg"
+            title="Fallout: New Vegas PC Game Review"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+          <div>
+            <a href="./videos/videoGames4.html">Fallout New Vegas Review</a>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <br /><br /><br /><br /><br />
+
+    <div class="footerClass">
+      <hr />
+      <footer>
+        &copy: Copyright Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+      </footer>
+      <br />
+    </div>
+  </body>
+</html>
